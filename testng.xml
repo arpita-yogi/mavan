@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!-- <groups>
+       <run>
+            <include name="smoke"/>
+        </run>
+
+    </groups>
+    <parameter name="CityName" value="Noida"/>
+    <parameter name="CourseName" value="Python"/>-->
+
+    <test verbose="7" preserve-order="true" parallel="true"  thread-count="2" name="C:/Users/Arpita/IdeaProjects/Maven_Edso/src/main/java">
+
+
+        <classes>
+            <class name="TestNg.PriorityExe"/>
+            <!-- <class name="Parameterization.NeedofParametorization"/>
+            <class name="Assertion.HardAssertExe"/>
+           <class name="Assertion.SoftAssertExe"/>
+
+           <class name="TestNg.BeforeAndAfterMethod"/>
+
+           <methods>
+              <include name="testCaseO"/>
+                <include name="testCaseL"/>
+                <exclude name="testCaseN"/>
+                <include name="testCaseD"/>
+                <include name="testCaseK"/>
+                <include name="testCaseA"/>
+                <include name="testCaseP"/>
+
+               </methods>-->
+
+        </classes>
+
+
+    </test>
+</suite>
